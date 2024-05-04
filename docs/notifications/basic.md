@@ -494,6 +494,7 @@ automation:
       - service: notify.mobile_app_<your_device_id_here>
         data:
           message: "TTS"
+          title: "Motion has been detected"
           data:
             tts_text: "Motion has been detected"
 ```
@@ -509,6 +510,7 @@ automation:
       - service: notify.mobile_app_<your_device_id_here>
         data:
           message: TTS
+          title: "Motion has been detected"
           data:
             tts_text: "Motion has been detected"
             media_stream: "alarm_stream"
@@ -525,6 +527,7 @@ automation:
       - service: notify.mobile_app_<your_device_id_here>
         data:
           message: "TTS"
+          title: "Motion has been detected"
           data:
             tts_text: "Alarm has been triggered"
             media_stream: "alarm_stream_max"
@@ -554,6 +557,7 @@ automation:
       - service: notify.mobile_app_<your_device_id_here>
         data:
           message: TTS
+          title: "Motion has been detected"
           data:
             tts_text: Motion has been detected
 ```
